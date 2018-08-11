@@ -1,0 +1,48 @@
+@import 'lib/colors';
+
+body, htm {
+    background-color: map-get($colors, light-grey-0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: map-get($colors, medium-grey-0);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.color-swatch-group {
+    list-style: none;
+    margin-left: -20px;
+    padding: 0px;
+}
+
+.color-swatch {
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: -20px;
+    margin-top: -16px;
+    padding: 0px;
+    text-align: center;
+    font-size: 12px;
+    &.hex-dark {
+        color: map-get($colors, medium-grey-3);
+    }
+    &.hex-light {
+        color: map-get($colors, light-grey-0);
+    }
+}
+
+table, tr, td {
+    th {
+        color: map-get($colors, medium-grey-0);
+        text-align: center;
+    }
+}
+
+@each $item, $color in $colors {
+    .#{$item} {
+        background-color: map-get($colors, $item);
+    }
+}
