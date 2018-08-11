@@ -31,4 +31,14 @@ h4 {
   color: #666666;
   font-size: 16px;
 }
+
+p {
+  font-size: 14px;
+  color: #4D4D4D;
+  line-height: 21px;
+}
+
+strong {
+  color: #333333;
+}
 /*# sourceMappingURL=styles.css.map */
