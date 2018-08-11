@@ -17,13 +17,25 @@ h2 {
     background-color: white;
 }
 
+.color-swatch-table, table {
+    width: 100%;
+    padding: 20px;
+}
+
+.color-swatch-table, tr, td {
+    th {
+        color: map-get($colors, medium-grey-0);
+        text-align: center;
+    }
+}
+
 .color-swatch-group {
     list-style: none;
     margin-left: -20px;
     padding: 0px;
 }
 
-.color-swatch {
+.color-swatch-item {
     min-width: 100px;
     height: 50px;
     line-height: 50px;
@@ -37,18 +49,6 @@ h2 {
     }
     &.hex-light {
         color: map-get($colors, light-grey-0);
-    }
-}
-
-table {
-    width: 100%;
-    padding: 20px;
-}
-
-tr, td {
-    th {
-        color: map-get($colors, medium-grey-0);
-        text-align: center;
     }
 }
 
