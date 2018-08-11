@@ -12,5 +12,8 @@ Plugins used:
 ### Colors 
  - Colors are indexed in `_colors.scss` and the swatches are compiled using a `@each` loop that assigns the class and a background color which can be used anywhere.
  
+### Body Styles
+ - Headline styles defined `h1`, `h2`, `h3`, and `h4`
+ 
 ## Example Project "Website Styleguide"
  - This imports the `styles.css` for the base styles and `styleguide.css` which has specific styles for the project
