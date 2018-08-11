@@ -6,7 +6,6 @@ h1 {
   color: #808080;
   margin-left: 0px;
   margin-right: 0px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .color-swatch-group {
@@ -16,8 +15,9 @@ h1 {
 }
 
 .color-swatch {
-  width: 150px;
+  width: 160px;
   height: 50px;
+  line-height: 50px;
   margin-left: -20px;
   margin-top: -16px;
   padding: 0px;
@@ -164,5 +164,101 @@ table th, tr th, td th {
 
 .deep-green-medium-3 {
   background-color: #031A04;
+}
+
+.warm-green-light-0 {
+  background-color: #D8FFCC;
+}
+
+.warm-green-light-1 {
+  background-color: #BAF2AA;
+}
+
+.warm-green-light-2 {
+  background-color: #9EE68A;
+}
+
+.warm-green-light-3 {
+  background-color: #84D96C;
+}
+
+.warm-green-medium-0 {
+  background-color: #6CCC52;
+}
+
+.warm-green-medium-1 {
+  background-color: #5EBF43;
+}
+
+.warm-green-medium-2 {
+  background-color: #50B336;
+}
+
+.warm-green-medium-3 {
+  background-color: #3BA62A;
+}
+
+.red-light-0 {
+  background-color: #E6A1A1;
+}
+
+.red-light-1 {
+  background-color: #D98282;
+}
+
+.red-light-2 {
+  background-color: #CC6666;
+}
+
+.red-light-3 {
+  background-color: #BF4D4D;
+}
+
+.red-medium-0 {
+  background-color: #B33535;
+}
+
+.red-medium-1 {
+  background-color: #A62121;
+}
+
+.red-medium-2 {
+  background-color: #991010;
+}
+
+.red-medium-3 {
+  background-color: #8C0000;
+}
+
+.gold-light-0 {
+  background-color: #FFEBCC;
+}
+
+.gold-light-1 {
+  background-color: #F2D6AA;
+}
+
+.gold-light-2 {
+  background-color: #E6C28A;
+}
+
+.gold-light-3 {
+  background-color: #D9AE6C;
+}
+
+.gold-medium-0 {
+  background-color: #CC9C52;
+}
+
+.gold-medium-1 {
+  background-color: #BF8B39;
+}
+
+.gold-medium-2 {
+  background-color: #B37A24;
+}
+
+.gold-medium-3 {
+  background-color: #A66A11;
 }
 /*# sourceMappingURL=styles.css.map */
