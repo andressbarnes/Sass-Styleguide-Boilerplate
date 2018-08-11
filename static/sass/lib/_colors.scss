@@ -62,3 +62,9 @@ $colors: (
     gold-medium-2: #B37A24,
     gold-medium-3: #A66A11,
 );
+
+@each $item, $color in $colors {
+    .#{$item} {
+        background-color: map-get($colors, $item);
+    }
+}

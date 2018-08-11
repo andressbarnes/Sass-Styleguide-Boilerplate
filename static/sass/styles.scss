@@ -1,25 +1,13 @@
 @import 'lib/colors';
-
-body, html {
-    background-color: map-get($colors, light-grey-0);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-    color: map-get($colors, medium-grey-0);
-}
-
-h2 {
-    color: map-get($colors, medium-grey-0);
-}
+@import 'lib/body';
 
 .content-wrapper {
     background-color: white;
+    padding: 20px;
 }
 
 .color-swatch-table, table {
     width: 100%;
-    padding: 20px;
 }
 
 .color-swatch-table, tr, td {
@@ -52,8 +40,3 @@ h2 {
     }
 }
 
-@each $item, $color in $colors {
-    .#{$item} {
-        background-color: map-get($colors, $item);
-    }
-}
