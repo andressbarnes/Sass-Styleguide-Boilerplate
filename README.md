@@ -10,5 +10,4 @@ Plugins used:
  
  ## Sass Boilerplate Features
 ### Colors 
- - Colors are indexed using `_colors.scss` and compiled using a `@each` loop that assigns the class and color value.
- 
+ - Colors are indexed using `_colors.scss` and the swatches are compiled using a `@each` loop that assigns the class and a background color value.
