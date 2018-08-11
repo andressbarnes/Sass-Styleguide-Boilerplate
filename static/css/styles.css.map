@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,GAAG,CAAC;EACA,KAAK,ECHI,OAAO;EDIhB,WAAW,EAAE,GAAG;EAChB,YAAY,EAAE,GAAG;EACjB,WAAW,EAAE,4BAA4B;CAAG",
+    "sources": [
+        "styles.sass",
+        "lib/_colors.sass"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

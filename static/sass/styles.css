@@ -1,0 +1,90 @@
+.h1 {
+  color: #E5E5E5;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-swatch-group {
+  list-style: none;
+  margin-left: -20px;
+  padding: 0px;
+}
+
+.color-swatch {
+  width: 100px;
+  height: 50px;
+  margin-left: -20px;
+  margin-top: -16px;
+  padding: 0px;
+}
+
+table th, tr th, td th {
+  color: #999999;
+  text-align: center;
+}
+
+.light-grey-0 {
+  background-color: #E5E5E5;
+}
+
+.light-grey-1 {
+  background-color: #CCCCCC;
+}
+
+.light-grey-2 {
+  background-color: #B2B2B2;
+}
+
+.light-grey-3 {
+  background-color: #999999;
+}
+
+.medium-grey-0 {
+  background-color: #808080;
+}
+
+.medium-grey-1 {
+  background-color: #666666;
+}
+
+.medium-grey-2 {
+  background-color: #4D4D4D;
+}
+
+.medium-grey-3 {
+  background-color: #333333;
+}
+
+.deep-blue-light-0 {
+  background-color: #A4B0CC;
+}
+
+.deep-blue-light-1 {
+  background-color: #7D8FB3;
+}
+
+.deep-blue-light-2 {
+  background-color: #5C6F99;
+}
+
+.deep-blue-light-3 {
+  background-color: #405580;
+}
+
+.deep-blue-medium-0 {
+  background-color: #293C66;
+}
+
+.deep-blue-medium-1 {
+  background-color: #17284D;
+}
+
+.deep-blue-medium-2 {
+  background-color: #0A1733;
+}
+
+.deep-blue-medium-3 {
+  background-color: #030A1A;
+}
+/*# sourceMappingURL=styles.css.map */
