@@ -12,7 +12,7 @@
 
 .color-swatch-table, tr, td {
     th {
-        color: map-get($colors, medium-grey-0);
+        color: color(medium-grey-0);
         text-align: center;
     }
 }
@@ -33,10 +33,17 @@
     text-align: center;
     font-size: 12px;
     &.hex-dark {
-        color: map-get($colors, medium-grey-3);
+        color: color(medium-grey-3);
     }
     &.hex-light {
-        color: map-get($colors, light-grey-0);
+        color: color(light-grey-0);
+    }
+}
+
+//Generate the color swatch backgrounds
+@each $item, $color in $colors {
+    .#{$item} {
+        background-color: color($item);
     }
 }
 
