@@ -1,7 +1,7 @@
 # Sass-Boilerplate
 plug and play styles for web application development
 
-You can serve the page anything.
+You can serve the page and compile with anything you want.
 
 Customized .vscode settings used for this project
 Plugins used:
