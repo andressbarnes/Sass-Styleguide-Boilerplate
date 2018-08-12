@@ -10,32 +10,28 @@ $mobile: 700px;
 .content-wrapper {
     background-color: white;
     padding: 20px;
-}
 
-.color-swatch-table, table {
-    width: 100%;
-}
-
-.color-swatch-table, tr {
-    th {
-        color: color(medium-grey-0);
-        text-align: center;
-
-        @include mobile {
-            font-size: 10px;
-        }
-    }
-    td {
-        @include mobile {
-            width: 50px;
-        }
+    .color-swatch-center {
+        text-align: center; 
     }
 }
 
-.color-swatch-group {
-    list-style: none;
-    margin-left: -20px;
-    padding: 0px;
+
+
+.color-swatch-collection {
+    width: 13%;
+    display: inline-block;
+    text-align: center;
+    @include mobile {
+        width: 100%;
+        display: block;
+    }
+
+    .color-swatch-group {
+        list-style: none;
+        margin-left: -20px;
+        padding: 0px;
+    }
 }
 
 .color-swatch-item {
@@ -52,11 +48,6 @@ $mobile: 700px;
     }
     &.hex-light {
         color: color(light-grey-0);
-    }
-
-    @include mobile {
-        min-width: 30px;
-        font-size: 8px;
     }
 }
 

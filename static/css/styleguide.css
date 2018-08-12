@@ -3,28 +3,24 @@
   padding: 20px;
 }
 
-.color-swatch-table, table {
-  width: 100%;
+.content-wrapper .color-swatch-center {
+  text-align: center;
 }
 
-.color-swatch-table th, tr th {
-  color: #808080;
+.color-swatch-collection {
+  width: 13%;
+  display: inline-block;
   text-align: center;
 }
 
 @media (max-width: 700px) {
-  .color-swatch-table th, tr th {
-    font-size: 10px;
+  .color-swatch-collection {
+    width: 100%;
+    display: block;
   }
 }
 
-@media (max-width: 700px) {
-  .color-swatch-table td, tr td {
-    width: 50px;
-  }
-}
-
-.color-swatch-group {
+.color-swatch-collection .color-swatch-group {
   list-style: none;
   margin-left: -20px;
   padding: 0px;
@@ -47,13 +43,6 @@
 
 .color-swatch-item.hex-light {
   color: #E5E5E5;
-}
-
-@media (max-width: 700px) {
-  .color-swatch-item {
-    min-width: 30px;
-    font-size: 8px;
-  }
 }
 
 .light-grey-0 {
