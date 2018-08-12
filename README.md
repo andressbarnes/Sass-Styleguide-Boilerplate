@@ -1,4 +1,4 @@
-# Sass_Styleguide-Boilerplate
+# Sass Styleguide Boilerplate
 ### Plug and play styles for web application development
 
 You can serve the page and compile with anything you want.
