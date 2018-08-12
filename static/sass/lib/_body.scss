@@ -39,5 +39,20 @@ p {
 }
 
 strong {
-    color: color(medium-grey-3)
+    color: color(medium-grey-3);
+}
+
+a {
+    color: color(warm-blue-medium-3);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: color(warm-blue-medium-0);
+}
+
+a:visited {
+    text-decoration: underline;
+    color: color(warm-blue-medium-3);
 }

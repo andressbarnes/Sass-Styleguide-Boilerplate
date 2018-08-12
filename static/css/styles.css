@@ -41,4 +41,19 @@ p {
 strong {
   color: #333333;
 }
+
+a {
+  color: #19BBFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #66D2FF;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: #19BBFF;
+}
 /*# sourceMappingURL=styles.css.map */
